@@ -37,27 +37,27 @@ class PtwxSpider(scrapy.Spider):
         novel = NovalItem()
         novel['book_name'] = response.xpath(
             '//*[@id="content"]/table/tr[1]/td/table/'
-            'tr[1]/td/table/tr/td/span/h1/text()')
+            'tr[1]/td/table/tr/td/span/h1/text()').extract()
         novel['category'] = response.xpath(
             '//*[@id="content"]/table/tr[1]'
-            '/td/table/tr[2]/td[1]/text()')[0].split('：')[-1]
+            '/td/table/tr[2]/td[1]/text()').extract()[0].split('：')[-1]
         novel['author'] = response.xpath(
             '//*[@id="content"]/table/tr[1]'
-            '/td/table/tr[2]/td[2]/text()')[0].split('：')[-1]
+            '/td/table/tr[2]/td[2]/text()').extract()[0].split('：')[-1]
         novel['word_number'] = response.xpath(
             '//*[@id="content"]/table/tr[1]'
-            '/td/table/tr[2]/td[4]/text()')[0].split('：')[-1]
+            '/td/table/tr[2]/td[4]/text()').extract()[0].split('：')[-1]
         novel['toupdate'] = response.xpath(
             '//*[@id="content"]/table/tr[1]'
-            '/td/table/tr[3]/td[1]/text()')[0].split('：')[-1]
+            '/td/table/tr[3]/td[1]/text()').extract()[0].split('：')[-1]
         novel['status'] = response.xpath(
             '//*[@id="content"]/table/tr[1]'
-            '/td/table/tr[3]/td[2]/text()')[0].split('：')[-1]
+            '/td/table/tr[3]/td[2]/text()').extract()[0].split('：')[-1]
         novel['href'] = response.xpath(
-            '//*[@id="content"]/table/tr[8]/td/table/caption/a/@href')
+            '//*[@id="content"]/table/tr[8]/td/table/caption/a/@href').extract()
         content = ''.join(
             response.xpath(
                 '//*[@id="content"]/table/tr[4]/td/table/tr/td[2]/div/text()'
-            )).strip()
+            ).extract()).strip()
         novel['content'] = content
         yield novel
