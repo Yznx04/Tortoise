@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e7acd45-3c49-48ed-bb7a-78385a90373a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/take.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noval/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Noval/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noval/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Noval/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noval/pipelines.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Noval/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noval/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Noval/spiders/ptwx.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noval/spiders/ptwx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Noval/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/Noval/text.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,48 +15,51 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Noval$ptwx.coverage" NAME="ptwx Coverage Results" MODIFIED="1544533803398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Noval/spiders" />
-    <SUITE FILE_PATH="coverage/Noval$text.coverage" NAME="text Coverage Results" MODIFIED="1544533679087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Noval" />
+    <SUITE FILE_PATH="coverage/Noval$text.coverage" NAME="text Coverage Results" MODIFIED="1544607652161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Noval" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1377157802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1881" />
+          <entry key="py" value="2952" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1881" />
+          <entry key="Python" value="2947" />
+          <entry key="SQL" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Noval/spiders/ptwx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+            <state relative-caret-position="342">
+              <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-                <marker date="1544533919828" expanded="true" signature="500:731" ph="..." />
               </folding>
             </state>
           </provider>
@@ -67,23 +68,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Noval/text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="424">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Noval/items.py">
+        <entry file="file://$PROJECT_DIR$/Noval/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding>
-                <marker date="1544531818210" expanded="true" signature="198:203" ph="..." />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="66" selection-start-line="66" selection-end-line="68" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Noval/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -103,10 +107,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Noval/settings.py" />
         <option value="$PROJECT_DIR$/Noval/items.py" />
-        <option value="$PROJECT_DIR$/Noval/text.py" />
         <option value="$PROJECT_DIR$/Noval/spiders/ptwx.py" />
+        <option value="$PROJECT_DIR$/Noval/text.py" />
+        <option value="$PROJECT_DIR$/Noval/pipelines.py" />
+        <option value="$PROJECT_DIR$/Noval/settings.py" />
       </list>
     </option>
   </component>
@@ -117,8 +122,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="154" />
+    <option name="y" value="23" />
+    <option name="width" value="1681" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -178,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ptwx">
+  <component name="RunManager" selected="Python.text">
     <configuration name="ptwx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Noval" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,8 +236,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ptwx" />
         <item itemvalue="Python.text" />
+        <item itemvalue="Python.ptwx" />
       </list>
     </recent_temporary>
   </component>
@@ -251,21 +258,21 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22044729" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17412141" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.47524753" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39933258" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3990099" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="SciView" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -283,43 +290,50 @@
     <entry file="file://$PROJECT_DIR$/Noval/middlewares.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Noval/settings.py">
+    <entry file="file:///anaconda3/envs/spider/lib/python3.7/site-packages/pymysql/err.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noval/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Noval/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="301">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Noval/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="339">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <marker date="1544531818210" expanded="true" signature="198:203" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Noval/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noval/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Noval/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="66" selection-start-line="66" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Noval/spiders/ptwx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+        <state relative-caret-position="342">
+          <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
-            <marker date="1544533919828" expanded="true" signature="500:731" ph="..." />
           </folding>
         </state>
       </provider>
